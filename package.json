@@ -1,0 +1,28 @@
+{
+  "name": "sails-hook-migrations",
+  "version": "1.0.0-beta.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/listepo/sails-hook-migrations.git"
+  },
+  "author": "Ivan Tugay <listepo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/listepo/sails-hook-migrations/issues"
+  },
+  "homepage": "https://github.com/listepo/sails-hook-migrations",
+  "sails": {
+    "isHook": true
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "dependencies": {
+    "db-migrate": "^0.9.14"
+  }
+}
