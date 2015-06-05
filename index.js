@@ -29,6 +29,9 @@ module.exports = function(sails) {
         sails.log.verbose("Autoreload hook deactivated.");
         return cb();
       }
+      sails.on('hook:orm:loaded', function() {
+
+      });
 
       // We're done initializing.
       return cb();
